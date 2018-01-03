@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	display: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.row:before, 
+.row:after {
+	content:"";
+	display: table ;
+	clear:both;
+ }
+
+ [class*="col-"]{
+	float: left;
+	min-height: 1px;
+	padding: 12px;  
+}
+
+i, .informations .col-h-3 p:last-child, .informations .col-h-6 p:last-child, .contact .send-button, .image-section .col-h-5 p:last-child {
+	cursor: pointer;
+}
+
+.col-h-1 {width: 8.33%;}
+.col-h-2 {width: 16.66%;}
+.col-h-3 {width: 25%;}
+.col-h-4 {width: 33.33%;}
+.col-h-5 {width: 41.66%;}
+.col-h-6 {width: 50%;}
+.col-h-7 {width: 58.33%;}
+.col-h-8 {width: 66.66%;}
+.col-h-9 {width: 75%;}
+.col-h-10 {width: 83.33%;}
+.col-h-11 {width: 91.66%;}
+.col-h-12 {width: 100%;}
+
+.jumbotron {
+	background-image: url("https://blog.oxforddictionaries.com/wp-content/uploads/mountain-names.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+.slogan {
+	padding: 200px 0;
+}
+
+.slogan h2, .slogan p, .informations p, .informations h2, .image-section h2, .image-section p, .reasons h2, .reasons h3, .reasons p, .buying .inactive p:first-child, .buying .active p:first-child, .buying .inactive button, .buying .active button, .contact h2, .contact h3, .contact p, .contact li {
+	color: #FFF;
+}
+
+.slogan h2 {
+	font-size: 2.3rem;
+}
+
+.slogan p {
+	font-size: 1.6rem;
+}
+
+.jumbotron img {
+	min-height: 200px;
+	width: 100%;
+}
+
+.start-up {
+	padding: 70px 0;
+}
+
+.start-up p, .about .col-h-3 p, .about .col-h-3 h3 {
+	color: #999494;
+}
+
+.start-up .row div:first-child {
+	margin-top: -70px;
+}
+
+.start-up h2, .about .col-h-12 h2, .informations .fa-heart-o {
+	font-size: 2.3rem;
+}
+
+.start-up .col-h-6:last-child p {
+	margin-top: 40px;
+}
+
+.start-up .col-h-6:last-child p:last-child {
+	margin-top: 0;
+}
+
+.informations .first-informations .col-h-3, .informations .second-informations div {
+	min-height: 260px;
+	background-size: cover;
+}
+
+.informations .first-informations > .col-h-3:first-child {
+	background-color: #dd54d0;
+}
+
+.informations .first-informations > .col-h-3:nth-child(2) {
+	background-color: #1c2a7a;
+}
+
+.informations .first-informations > .col-h-3:nth-child(3) {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSPKCsdHV3lwk2b4ftxnUiGNpNuxvTJ_iM39hZiJKhqVVR9Zv");
+}
+
+.informations .first-informations > .col-h-3:last-child {
+	background-color: #c97734;
+}
+
+.informations .second-informations > .col-h-6 {
+	background-image: url("https://usa.visa.com/dam/VCOM/global/common-assets/images/hiker-travel-with-visa-dark-1600x900.jpg");
+	background-position: center;
+}
+
+.informations .second-informations > .col-h-3:nth-child(2) {
+	background-color: #8ddd3e;
+}
+
+.informations .second-informations > .col-h-3:last-child {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWs3kI48-hblm-MaWQM2rAQhuizx-ohoxcnTESNkxyByQ2yAhM");
+}
+
+.informations p, .informations h2 {
+	text-align: left;
+}
+
+.informations .first-informations > .col-h-3 > p:last-child, .informations .second-informations > div > p:last-child {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.informations .fa-long-arrow-right {
+	padding-left: 15px;
+}
+
+.informations .fa-heart-o {
+	float: right;
+	margin-left: 30px;
+}
+
+.about {	
+	padding: 50px 0;
+}
+
+.about .col-h-3 h3, .reasons h3 {
+	font-size: 1.6rem;
+}
+
+.image-section {
+	background-image: url("https://9to5google.files.wordpress.com/2017/01/mate9_pixelxl_3.jpg?quality=82&strip=all&strip=all");
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.image-section .row {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.image-section h2 {
+	font-size: 2.6rem;
+}
+
+.image-section p {
+	font-size: 1.4rem;
+}
+
+.image-section p:last-child {
+	margin-top: 50px;
+	font-weight: 900;
+}
+
+.image-section p i {
+	padding-left: 25px;
+}
+
+.reasons {
+	background-color: #47e544;
+}
+
+.reasons .container {
+	padding: 40px 0;
+}
+
+.reasons h2 {
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+.buying .row {
+	padding: 60px 40px;
+}
+
+.buying .row .col-h-6 {
+	padding: 40px 60px;
+}
+
+.buying .active {
+	box-shadow: 5px 5px 5px 5px;
+}
+
+.buying .inactive p:first-child, .buying .active p:first-child {
+	display: inline-block;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.buying .inactive button, .buying .active button {
+	padding: 20px;
+	background-color: #1adb4a;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.buying i {
+	cursor: auto;
+}
+
+.buying .inactive .fa, .buying .active .fa {
+	font-size: 2rem;
+	margin-left: 50px; 
+}
+
+.buying .inactive p:first-child {
+	background-color: #918a8a;
+}
+
+.buying .active p:first-child {
+	background-color: #d604d2;
+}
+
+.buying .inactive p:first-child, .buying .active p:first-child, .buying .inactive button, .buying .active button {
+	text-transform: uppercase;
+}
+
+.contact {
+	background-color: #060b6d;
+}
+
+.contact .row:first-child > div:last-child {
+	padding-left: 150px;
+}
+
+.contact .spam {
+	font-size: 0.5rem;
+}
+
+.contact .col-h-2 h3 {
+	padding-top: 1.5rem;
+}
+
+.contact ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact ul li {
+	padding: 3px 0;
+}
+
+footer {
+	text-align: center;
+	background-color: #0c0c0c;
+	padding: 10px;
+	color: #fff;
+}
+
+@media (min-width: 969px) and (max-width: 1199px) {
+    
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+	.slogan {
+		padding: 100px 0;
+	}
+
+	.start-up {
+		min-height: 500px;
+	}
+
+	.informations .first-informations .col-h-3, .informations .second-informations div {
+		min-height: 220px;
+	}
+
+	.buying .inactive .fa, .buying .active .fa {
+		margin-left: 30px; 
+	}
+
+	.contact .col-2 h3 {
+		padding-top: 60px;
+		line-height: 0;
+	}
+}
+
+@media (max-width: 968px) {
+	.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .slogan, .start-up, .about, .image-section, .reasons, .buying, .contact {
+    	text-align: center;
+    }
+
+    .slogan {
+    	padding: 0;
+    }
+
+    .slogan h2, .reasons h2, .image-section h2, .start-up h2 {
+    	font-size: 1.7rem;
+    }
+
+    .informations h2, .about h2, .about h3, .reasons h3, .buying h2, .contact h3 {
+    	font-size: 1.5rem;
+    }
+
+    .slogan p, .image-section p {
+    	font-size: 1rem;
+    }
+
+    .start-up p, .informations p, .about p, .reasons p, .buying p, .contact p, .contact li {
+    	font-size: 1rem;
+    }
+
+    .jumbotron img {
+    	width: 40%;
+    }
+
+    .start-up {
+    	padding: 70px 0;
+    }
+
+    .start-up .row div:last-child p {
+		margin-top: -30px;
+	}
+
+	.informations .first-informations .col-h-3, .informations .second-informations div {
+		min-height: 170px;
+	}
+
+	.informations .fa {
+		font-size: 1rem;
+	}
+
+	.image-section p {
+		font-size: 1rem;
+	}
+
+	.image-section i {
+		padding-bottom: 70px;
+	}
+
+	.buying .row {
+		padding: 20px 40px 40px 40px;
+	}
+
+	.buying .inactive button, .buying .active button {
+		padding: 15px;
+	}
+
+	.buying .inactive .fa, .buying .active .fa {
+		font-size: 1.7rem;
+		margin-left: 20px; 
+	}
+
+	.contact .row:first-child > div:last-child {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.slogan h2, .reasons h2, .image-section h2, .start-up h2, .about .col-h-12 h2 {
+		font-size: 1rem;
+	}
+
+	.about .col-h-3 h3, .informations h2, .buying h2, .contact h3 {
+		font-size: 0.7rem;
+	}
+
+	.slogan p, .image-section p, .reasons h3 {
+		font-size: 0.5rem;
+	}
+
+	.start-up p, .informations p, .about p, .reasons p, .buying p, .contact p, .contact li, .informations .fa {
+		font-size: 0.4rem;
+	}
+
+	.start-up {
+		padding: 60px 0 20px 0;
+	}
+
+	.informations .first-informations .col-h-3, .informations .second-informations div {
+		min-height: 30vh;
+	}
+
+	.about {
+		padding: 10px 0;
+	}
+
+	.reasons .container {
+		padding: 0;
+	}
+
+	.reasons .col-h-12 {
+		padding-top: 5px;
+	}
+
+	.buying .row {
+		padding: 10px 6px 25px 6px;
+	}
+
+	.buying .row .col-h-6 {
+		padding: 20px 15px;
+	}
+
+	.buying .inactive button, .buying .active button {
+		padding: 4px;
+		font-size: 0.6rem;
+	}
+
+	.buying .inactive .fa, .buying .active .fa {
+		font-size: 0.9rem;
+		margin-left: 12px;
+	}
+
+	.contact .col-h-2 h3 {
+		padding-top: 5px;
+	}
+}
